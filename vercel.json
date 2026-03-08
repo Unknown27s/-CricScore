@@ -1,6 +1,8 @@
 {
-  "outputDirectory": "public",
+  "buildCommand": "",
+  "installCommand": "",
+  "framework": null,
   "rewrites": [
-    { "source": "/api/score", "destination": "/api/score" }
+    { "source": "/(.*)", "destination": "/public/$1" }
   ]
 }
