@@ -1,0 +1,11 @@
+.wwebjs_auth/
+node_modules/
+.vercel/
+debug.log
+out.txt
+output.txt
+test*.js
+test*.txt
+api_out.json
+*.log
+nodemon.json
